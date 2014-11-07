@@ -12,3 +12,7 @@ class mainView(generic.ListView):
 class pearceView(generic.ListView):
 	model = Building
 	template_name = 'buildings/pearce.html'	
+
+class anspachView(generic.ListView):
+	model = Building
+	template_name = 'buildings/anspach.html'	
