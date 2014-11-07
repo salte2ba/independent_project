@@ -3,12 +3,12 @@ from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse
 from django.views import generic
 
-from buildings.models import Add_person
+from buildings.models import Building
 
 class mainView(generic.ListView):
-	model = Add_person
+	model = Building
 	template_name = 'buildings/main.html'
 
 class pearceView(generic.ListView):
-	model = Add_person
+	model = Building
 	template_name = 'buildings/pearce.html'	
